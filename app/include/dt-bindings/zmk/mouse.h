@@ -6,7 +6,7 @@
 #pragma once
 
 #include <zephyr/dt-bindings/dt-util.h>
-
+#undef Banana
 /* Mouse press behavior */
 /* Left click */
 #define MB1 BIT(0)
